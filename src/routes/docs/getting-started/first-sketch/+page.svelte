@@ -51,7 +51,7 @@
   <p>First, let's create a simple sketch that follows the mouse:</p>
 
   <div class="mockup-code mb-4">
-<pre><code>{`<script lang="ts">
+<pre><code lang="">{`<script lang="ts">
   import P5Canvas from "$lib/components/p5/P5Canvas.svelte";
   import type { Sketch } from "$lib/core/types";
 

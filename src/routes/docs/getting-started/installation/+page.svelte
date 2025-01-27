@@ -85,13 +85,14 @@ PUBLIC_APP_DESCRIPTION=My creative coding project</code></pre>
 
   <h3>TypeScript Configuration</h3>
   <p>The template includes a pre-configured <code>tsconfig.json</code>. You can customize it based on your needs:</p>
-  <pre><code class="language-json">{
+  <pre><code class="language-json">
+    {`{
   "extends": "./.svelte-kit/tsconfig.json",
   "compilerOptions": {
     "strict": true,
     // Add your custom TypeScript options here
   }
-}</code></pre>
+}`}</code></pre>
 
   <h2>Next Steps</h2>
   <ul>
